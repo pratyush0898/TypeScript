@@ -20,7 +20,7 @@ This repository is dedicated to mastering TypeScript, a superset of JavaScript t
 
 ## Get Started
 
-1. **Clone Repository**: `git clone https://github.com/nvmPratyush/typescript-learning.git`
+1. **Clone Repository**: `git clone https://github.com/nvmPratyush/typescript.git`
 2. **Explore**: Dive into the folders and start learning TypeScript.
 3. **Contribute**: Feel free to contribute your own examples or projects via pull requests.
 
