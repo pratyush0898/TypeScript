@@ -51,4 +51,4 @@ let numbersANY = []; // It's any and if we put any tyoe so it will valid
 
 let number: number[] = [] // We can put numbers nly it will show error if we put anything else
 
-number.forEach(n => n.valueOf/* toExponential toFixed toLocaleString toPrecision toString valueOf */)
+// number.forEach(n => n.valueOf/* toExponential toFixed toLocaleString toPrecision toString valueOf */)
