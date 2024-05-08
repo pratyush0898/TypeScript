@@ -18,7 +18,8 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --local user.email "action@github.com"
+        git config --local user.email "priyankarangwa@gmail.com"
+        git config --local user.name "pratyush0898"
         git add .
         git commit -m "Compile TypeScript files"
         git push
