@@ -1,5 +1,8 @@
 // TypeScript has additional features compared to JavaScript.
 
+import { lutimesSync } from "fs";
+import { forEachChild } from "typescript";
+
 // JavaScript types
 let sales: number = 123_456_789; // Using underscores for readability in big numbers
 let numberCount: 123_456_789; // Corrected to specify the type as 'number'
@@ -36,3 +39,16 @@ const greetings = (userName: string, isSpanish: boolean) => {
 greetings("Pratyush", true);
 greetings("Pratyush", false);
 
+// Arrays
+
+let list = [1, 5, 'ahb'] // The array's type is any
+// We can Set the type of array
+
+let numList: number[] = [1, 2, 3]
+
+let numbersANY = []; // It's any and if we put any tyoe so it will valid
+
+
+let number: number[] = [] // We can put numbers nly it will show error if we put anything else
+
+number.forEach(n => n.valueOf/* toExponential toFixed toLocaleString toPrecision toString valueOf */)
