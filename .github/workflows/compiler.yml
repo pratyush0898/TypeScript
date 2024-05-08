@@ -19,6 +19,6 @@ jobs:
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
-        git add dist/index.js
+        git add .
         git commit -m "Compile TypeScript files"
         git push
