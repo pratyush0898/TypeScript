@@ -1,4 +1,4 @@
-name: Debug index.ts with npm run ts
+name: Run TypeScript script
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  debug:
+  run-script:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,10 +16,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run npm run ts for debugging
-      run: ts-node src/index.ts
-
-    # Add additional steps here for debugging index.ts
-    # For example:
-    # - name: Display contents of index.ts
-    #   run: cat src/index.ts
+    - name: Run ts-node with npx
+      run: npx ts-node src/index.ts
