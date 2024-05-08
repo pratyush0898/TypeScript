@@ -1,16 +1,23 @@
 {
-    "name": "typescript",
-    "version": "1.0.0",
-    "description": "Welcome to my TypeScript repository where I dive into the world of statically typed JavaScript with enhanced productivity and scalability.Join me in mastering TypeScript leveraging its powerful type system and modern features to build robust and maintainable applications ",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "TypeScript",
-        "Learning",
-        "Programming Launguage"
-    ],
-    "author": "nvmPratyush",
-    "license": "Apache-2.0"
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Welcome to my TypeScript repository where I dive into the world of statically typed JavaScript with enhanced productivity and scalability.Join me in mastering TypeScript leveraging its powerful type system and modern features to build robust and maintainable applications ",
+  "main": "index.js",
+  "scripts": {
+    "ts": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "TypeScript",
+    "Learning",
+    "Programming Launguage"
+  ],
+  "author": "nvmPratyush",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "ts-node": "^10.4.0" // Add this line
+  }
 }
