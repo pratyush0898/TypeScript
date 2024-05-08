@@ -6,11 +6,17 @@ let course = "TypeScript";
 let Language;
 let isLearned = false;
 let isActive;
+console.log(sales);
+console.log(course);
+console.log(isLearned);
 let level;
 level = 1;
 level = "first";
 level = true;
 level;
+console.log(typeof (sales));
+console.log(typeof (course));
+console.log(typeof (isLearned));
 const render = (document) => {
     console.log(document);
 };
@@ -29,5 +35,4 @@ let list = [1, 5, 'ahb'];
 let numList = [1, 2, 3];
 let numbersANY = [];
 let number = [];
-number.forEach(n => n.valueOf);
 //# sourceMappingURL=index.js.map
