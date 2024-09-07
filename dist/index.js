@@ -14,9 +14,6 @@ level = 1;
 level = "first";
 level = true;
 level;
-console.log(typeof(sales));
-console.log(typeof(course));
-console.log(typeof(isLearned));
 const render = (document) => {
     console.log(document);
 };
