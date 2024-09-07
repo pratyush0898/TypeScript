@@ -1,5 +1,6 @@
 // TypeScript has additional features compared to JavaScript.
 
+import { log } from "console";
 import { lutimesSync } from "fs";
 import { forEachChild } from "typescript";
 
@@ -11,6 +12,10 @@ let Language: "TypeScript"; // Corrected to specify the type as 'string'
 let isLearned: boolean = false;
 let isActive: true; // Corrected to specify the type as 'boolean'
 
+console.log(sales);
+console.log(course);
+console.log(isLearned);
+
 // TypeScript Types
 let level: any; // When no type is specified, it defaults to 'any'
 
@@ -19,6 +24,11 @@ level = 1;
 level = "first";
 level = true;
 level; // The value of 'level' will be 'true' at this point
+
+console.log(typeof(sales));
+console.log(typeof(course));
+console.log(typeof(isLearned));
+
 
 // Function with 'any' type parameter
 const render = (document: any /* specify the type of 'document' as 'any' or 'boolean' to avoid 'noImplicitAny' error */) => {
